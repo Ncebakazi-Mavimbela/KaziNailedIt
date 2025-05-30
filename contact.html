@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us | Kazi Nailed It</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <div class="site-name">Kazi Nailed It</div>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Title -->
+  <section class="page-title">
+    <h1>Get in Touch</h1>
+    <p>We’d love to hear from you! Send us a message or find us below.</p>
+  </section>
+
+  <!-- Contact Form and Info -->
+  <section class="contact-section">
+    <form id="contactForm" novalidate>
+      <div class="form-group">
+        <label for="name">Name<span class="required">*</span></label>
+        <input type="text" id="name" name="name" required placeholder="Your full name" />
+        <small class="error-message"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email<span class="required">*</span></label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com" />
+        <small class="error-message"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="Optional" />
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message<span class="required">*</span></label>
+        <textarea id="message" name="message" rows="5" required placeholder="Your message..."></textarea>
+        <small class="error-message"></small>
+      </div>
+
+      <button type="submit" class="btn-submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <h2>Contact Details</h2>
+      <p><strong>Phone:</strong> (072) 192-1471</p>
+      <p><strong>Email:</strong> <a href="mailto:kazimavimbela@gmail.com">kazimavimbela@gmail.com</a></p>
+      <p><strong>Address:</strong> 24 Florida Lake, Roodepoort, 1709</p>
+      <h3>Follow us</h3>
+      <p>
+        <a href="https://www.instagram.com/kazi_mavimbela" target="_blank" rel="noopener">Instagram</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Kazi Nailed It. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>

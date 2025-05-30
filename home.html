@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kazi Nailed It | Premium Nail Art & Care</title>
+  <meta name="description" content="Kazi Nailed It - premium nail salon specializing in artistic designs and personalized care." />
+  <meta name="keywords" content="Nails, Nail Art, Pedicure, Acrylic, Gel Nails, Nail Salon" />
+  <meta name="author" content="Kazi Mavimbela" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Icon library for glyph icons -->
+  
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="site-name" aria-label="Site name">
+        Kazi Nailed It
+      </div>
+      <nav>
+        <ul>
+          <li><a href="home.html"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+          <li><a href="products.html"><i class="fas fa-box-open"></i> Products</a></li>
+          <li><a href="gallery.html"><i class="fas fa-images"></i> Gallery</a></li>
+          <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" role="img" aria-label="Hands with stylish nail designs">
+    <div class="hero-overlay">
+      <h1>Welcome to Kazi Nailed It</h1>
+      <p>Expert nail art & care tailored just for you.</p>
+      <a href="contact.html" class="btn-primary">Book Now</a>
+    </div>
+  </section>
+
+  <main>
+    <section class="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li><i class="fas fa-gem"></i> Stiletto, Almond, Coffin, & Square nails</li>
+        <li><i class="fas fa-paint-brush"></i> Acrylic Pedicure</li>
+        <li><i class="fas fa-cube"></i> Builder Gel Nails</li>
+        <li><i class="fas fa-layer-group"></i> Gel-X Extensions</li>
+        <li><i class="fas fa-wind"></i> Soak Off</li>
+      </ul>
+    </section>
+
+    <section class="gallery">
+      <h2>Gallery Highlights</h2>
+      <div class="image-grid">
+        <img src="images/Red bottoms.jpg  " alt="Red bottom nail design" />
+        <img src="images/Pedicure.jpg" alt="Elegant pedicure nails" />
+        <img src="images/Purple coffin.jpg "alt=Gel-X extension nails" />
+        <img src="images/Stilleto nails.jpg" alt="Artistic acrylic nails" />
+      </div>
+    </section>
+
+    <section class="contact-form-section">
+      <h2>Contact Us</h2>
+      <form id="contactForm" novalidate>
+        <label for="name">Name *</label>
+        <input type="text" id="name" name="name" required minlength="2" />
+        
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required />
+        
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" required minlength="10"></textarea>
+        
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+      <div id="formMessage" role="alert" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentYear"></span> Kazi Nailed It. All rights reserved.</p>
+    <p>
+      Follow us: 
+      <a href="https://instagram.com/kazi_mavimbela" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+    </p>
+    <p>Contact: <a href="mailto:kazimavimbela@gmail.com">kazimavimbela@gmail.com</a> | Phone: (072) 192-1471</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
